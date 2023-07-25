@@ -1,0 +1,346 @@
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 5px solid black;
+    border-radius: 8px;
+}
+.nav-items{
+    /* margin: 0 15px; */
+    border-right: 4px solid black;
+    padding: 5px 14px;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.6s  ease;
+}
+.search{
+    padding: 5px 11px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.search:hover{
+    outline: none;
+}
+.items{
+    display: flex;
+    gap: 20px;
+}
+.nav-items:hover{
+    background-color: black;
+    color: white;
+    outline: none;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    height: 5rem;
+    border-radius: 8px;
+    border-bottom: 5px solid black;
+    /* border: 2px solid black; */
+}
+.burger{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    height: 32px;
+}
+.bur{
+    width: 27px;
+    height: 5px;
+    margin: 4px;
+    background-color: black;
+    display: none;
+}
+.design{
+    display: flex;
+    gap: 2rem;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.des{
+    gap: 8px;
+    width: 25rem;
+    flex-direction: column;
+    display: flex;
+    height: 45rem;
+    border: 2px solid yellow;
+}
+.image{
+    width: 100%;
+    height: 70%;
+}
+.line{
+    width: 7px;
+    height: 2px;
+    background-color: black;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+img[alt="load"]{
+    width: 100%;
+    height: 100%;
+}
+.tit,.about-tit{
+    font-weight: bold;
+}
+.summary{
+    gap: 15px;
+    width: 90%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 19px;
+}
+.about{
+    width: 90%;
+    height: 90vh;
+    border: 1px solid black;
+    display: flex; 
+    margin: 10px auto;
+}
+.about-pic{
+    width: 100%;
+    height: 100%;
+}
+.about-mid{
+    width: 65%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.about-tit{
+    font-size: 30px;
+}
+.get-to-know-me{
+    padding: 15px 18px;
+    border-radius: 8px;
+    /* outline: none; */
+    background: black;
+    color: white;
+    font-size: 18px;
+    transition:all 0.6s ease;
+    border: 2px solid black;
+}
+.get-to-know-me:hover{
+    background-color: white;
+    color: black;
+}
+.follow{
+    width: 100%;
+    height: 115px;
+    margin: 80px auto;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gallery{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.show{
+    position: relative;
+    /* height: 176px; */
+    overflow: hidden;
+    height: 100%;
+    background-size: cover;
+    width: 225px;
+    transition: all 2s ease;
+}
+.show:hover .hidden{
+   display: block;
+   /* height: 100%; */
+}
+.hidden{
+    width: 100%;
+    transition: all 2s ease;
+    display: none;
+    text-align: center;
+    height: 100%;
+    background-color: antiquewhite;
+    position:absolute;
+    top: 0;
+    left: 0;
+    /* background-blend-mode: darken;  */
+    /* background-color: transparent; */
+}
+.shop{
+   
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 50px;
+    margin: 80px 0px 90px 0px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    width: 87%;
+    margin: 0 auto;
+    border: 2px solid black;    
+}
+.smallbag{
+    align-items: center;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+img[alt="bigbag"]{
+    width: 100%;
+}
+.bigbag{
+    width: 60%;
+}
+img[alt="smallbag"]{
+    width: 100%;
+}
+.lastline{
+    height: 2px;
+    width: 100%;
+    background: black;
+    margin: 5rem 0;
+}
+.left{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    flex-direction: column;
+    gap: 3rem;
+}
+.last{
+    color: black;
+    text-decoration: none;
+}
+.last-social{
+    color: black;
+    background: white;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+footer{
+    display: flex;
+    /* gap: 0rem; */
+    gap: 20rem;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 7rem;
+}
+.em{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.emsub input{
+    padding: 6px 10px;
+    border: 2px solid black;
+    /* border-radius: 7px; */
+    font-size: 18px;
+}
+.emsub button{
+    padding: 8px 20px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid black;
+    background: black;
+    position: relative;
+    top: -0.7px;
+    transition: all 0.6s ease;
+}
+.emsub button:hover{
+    background: white;
+    color: black;
+}
+@media  screen and (max-width:720px){
+footer{
+    flex-direction: column;
+    gap: 7rem;
+}
+.left{
+    justify-content: center;
+    align-self: center;
+}
+.right{
+    justify-content: center;
+    align-self: center;
+}
+}
+@media  screen and (max-width:860px) {
+    .bur{
+        display: block;
+    }
+    .items{
+        flex-direction: column;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: blue;
+    right: 100%;
+    /* height: 75vh; */
+    transition: all 0.6s ease;
+    text-align: center;
+    }
+    .active{
+        right: 0;
+    }
+    .navigation{
+    align-items: flex-start;
+    }
+}
+@media  screen and (max-width:450px) {
+    .search{
+        width: 136px;
+    }
+    .navigation{
+        justify-content: flex-start;
+        gap: 4px;
+    }
+}
+@media screen and (max-width:1430px){
+    .design{
+       justify-content: space-around;
+    }
+}
+@media screen and (max-width:1000px){
+   .about-pic{
+    width: 145%;
+   }
+}
+@media screen and (max-width:730px){
+    .about-pic{
+     width: 185%;
+    }
+ }
+ @media screen and (max-width:640px){
+        .about{
+            flex-direction: column;
+            height: 110%;
+        }
+        .about-pic{
+            width: 100%;
+           }
+ }
